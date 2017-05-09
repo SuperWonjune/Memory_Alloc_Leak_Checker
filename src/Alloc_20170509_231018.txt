@@ -1,0 +1,4 @@
+ARRAY      [0x01258018] [    16]Bytes c:\users\superwonjune\desktop\procademy\homework\newmomoryallocator\newmomoryallocator\main.cpp : 18
+LEAK       [0x0125cde0] [     4]Bytes c:\users\superwonjune\desktop\procademy\homework\newmomoryallocator\newmomoryallocator\main.cpp : 17
+LEAK       [0x01258018] [    16]Bytes c:\users\superwonjune\desktop\procademy\homework\newmomoryallocator\newmomoryallocator\main.cpp : 18
+LEAK       [0x01258058] [     4]Bytes c:\users\superwonjune\desktop\procademy\homework\newmomoryallocator\newmomoryallocator\main.cpp : 19

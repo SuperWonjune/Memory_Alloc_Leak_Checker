@@ -10,11 +10,11 @@
 // 에러메시지 열거형
 enum ERROR_MESSAGE { NOALLOC, ARRAY, LEAK};
 
-
 #include <cstdio>
 #include <ctime>
 
 #include <iostream>
+#include <fstream>
 
 // allocmemoryInfo를 넣을 자료구조로 STL 함수는 쓸수 없다.. new delete가 내부적으로 있어서 코드가 계속 돈다 ㅠㅠ 
 // std::list 쓰려다가 3시간 날림..
@@ -60,6 +60,8 @@ public:
 	void searchForLeakMemory();
 	// 에러 버퍼 출력
 	void printBuffer();
+	// 에러 버퍼 파일로 출력
+	void makeErrorFile();
 	
 
 	// 동적 할당된 메모리들의 정보가 담겨 있는 MemoryInfo 클래스의 배열
